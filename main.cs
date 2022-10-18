@@ -1,9 +1,14 @@
+// Created by: Alex Nelson
+// Created on: Oct 2022
+//
+// This program calculates area of a triangle
 using System;
 
 class Program
 {
     public static void Main(string[] args)
     {
+    //Input
     int length;
     int width;
     int area;
@@ -18,6 +23,7 @@ class Program
 
     area = length * width / 2;
 
+    //Output
     Console.WriteLine("");
     Console.WriteLine("The area is: " + area + " cm²");
     
